@@ -10,5 +10,6 @@ public class Inputs {
         System.out.println();
         int sum=n1 + n2;
         System.out.print(sum);
+        sc.close();
     }
 }
