@@ -6,6 +6,7 @@ class Student{
         name="Default Name";
         age=10;
         count++;
+        System.out.println("Calling COnstructor");
     }
     Student(String n,int a){
         name=n;
@@ -18,6 +19,7 @@ class Student{
 }
 public class Constructor {
     public static void main(String[] args){
+        new Student();
         Student std1 =new Student();
         Student std2=new Student("Utkarsh",19);
         std1.display();
