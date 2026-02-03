@@ -1,6 +1,6 @@
 
 
-public class Abstract_Keyword {
+public class Abstract_Class {
     public static void main(String[] args) {
         A_Shape s= new A_Circle();
         s.draw();
