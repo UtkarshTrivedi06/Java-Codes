@@ -10,10 +10,10 @@ interface I_Animal{
     void sound();
     void walk();
 }
-interface Cat{
+interface I_Cat{
     void meow();
 }
-class I_Dog implements I_Animal,Cat{
+class I_Dog implements I_Animal,I_Cat{
     public void sound(){
         System.out.println("Woof");
     }
