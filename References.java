@@ -1,12 +1,12 @@
 public class References {
     public static void main(String[] args) {
-        Student s = new Student("Utkarsh");
+        Ref_Student s = new Ref_Student("Utkarsh");
         s.display();
     }
 }
-class Student{
+class Ref_Student{
     String name;
-    Student(String name){
+    Ref_Student(String name){
         this.name=name;
     }
     void display(){
